@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "cpu_model": "AMD Ryzen 5 7600 6-Core Processor",
+    "logical_cores": 12,
+    "test_duration_s": 30,
+    "start_time": "2025-11-24 13:12:25",
+    "end_time": "2025-11-24 13:12:29"
+  },
+  "results": {
+    "avg_cpu_usage": 100.0,
+    "avg_temp": 68.9,
+    "max_temp": 71.5,
+    "avg_freq_GHz": 4.86
+  },
+  "timeline": [
+    {
+      "time_s": 0,
+      "cpu_usage": 100.0,
+      "temp": 63.1875,
+      "freq": 4.866816083333334
+    },
+    {
+      "time_s": 1,
+      "cpu_usage": 100.0,
+      "temp": 69.75,
+      "freq": 4.863363
+    },
+    {
+      "time_s": 2,
+      "cpu_usage": 100.0,
+      "temp": 71.1875,
+      "freq": 4.832739333333332
+    },
+    {
+      "time_s": 3,
+      "cpu_usage": 100.0,
+      "temp": 71.5,
+      "freq": 4.878459333333333
+    }
+  ],
+  "charts": {
+    "cpu_usage_png": "stress_reports/stress_report_20251124_131229_usage.png",
+    "temperature_png": "stress_reports/stress_report_20251124_131229_temp.png"
+  }
+}

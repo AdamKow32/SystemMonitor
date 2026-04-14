@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "cpu_model": "AMD Ryzen 5 7600 6-Core Processor",
+    "logical_cores": 12,
+    "test_duration_s": 30,
+    "start_time": "2025-11-24 13:10:38",
+    "end_time": "2025-11-24 13:10:48"
+  },
+  "results": {
+    "avg_cpu_usage": 100.0,
+    "avg_temp": 69.7,
+    "max_temp": 72.7,
+    "avg_freq_GHz": 4.88
+  },
+  "timeline": [
+    {
+      "time_s": 0,
+      "cpu_usage": 100.0,
+      "temp": 56.8125,
+      "freq": 5.071622249999999
+    },
+    {
+      "time_s": 1,
+      "cpu_usage": 100.0,
+      "temp": 68.3125,
+      "freq": 4.88032925
+    },
+    {
+      "time_s": 2,
+      "cpu_usage": 100.0,
+      "temp": 70.625,
+      "freq": 4.856327666666666
+    },
+    {
+      "time_s": 3,
+      "cpu_usage": 100.0,
+      "temp": 71.125,
+      "freq": 4.81806725
+    },
+    {
+      "time_s": 4,
+      "cpu_usage": 100.0,
+      "temp": 71.5625,
+      "freq": 4.832823749999999
+    },
+    {
+      "time_s": 5,
+      "cpu_usage": 100.0,
+      "temp": 71.9375,
+      "freq": 4.830868416666667
+    },
+    {
+      "time_s": 6,
+      "cpu_usage": 100.0,
+      "temp": 72.0625,
+      "freq": 4.875891333333333
+    },
+    {
+      "time_s": 7,
+      "cpu_usage": 100.0,
+      "temp": 72.1875,
+      "freq": 4.855124166666667
+    },
+    {
+      "time_s": 8,
+      "cpu_usage": 100.0,
+      "temp": 72.6875,
+      "freq": 4.872409833333333
+    }
+  ],
+  "charts": {
+    "cpu_usage_png": "stress_reports/stress_report_20251124_131048_usage.png",
+    "temperature_png": "stress_reports/stress_report_20251124_131048_temp.png"
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "systemmonitor-gui"              # NAZWA NA PIP (dystrybucja)
+version = "0.1.0"
+description = "Lekki monitor systemu Linux z testami obciążeniowymi CPU i RAM (PyQt6)."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Adam Kowalski", email = "kowalskiadam67@gmail.com"}]
+dependencies = ["psutil", "pyqt6", "pyqtgraph", "matplotlib"]
+
+# --- tu mówimy: kod jest w src/ i pakiet na import to 'systemmonitor'
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["systemmonitor*"]
+
+# dołącz zasoby (qss, png itp.)
+[tool.setuptools.package-data]
+systemmonitor = ["**/*"]
+
+# entrypoint CLI: po instalacji będzie komenda `systemmonitor`
+[project.scripts]
+systemmonitor = "systemmonitor.main:main"
